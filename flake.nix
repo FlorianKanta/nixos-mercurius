@@ -10,7 +10,7 @@
     { self, nixpkgs, ... }@inputs:
     {
       # The host with the hostname `my-nixos` will use this configuration
-      nixosConfigurations.glados = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.mercurius = nixpkgs.lib.nixosSystem {
         modules = [
           ./configuration.nix
         ];
