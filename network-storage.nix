@@ -13,15 +13,15 @@
   imports = [ ];
 
   fileSystems."/mnt/jellyfin" = {
-  device = "u290540-sub6@u290540.your-storagebox.de:";
-  fsType = "sshfs";
-  options = [
-    "nodev"
-    "noatime"
-    "allow_other"
-    "IdentityFile=/root/.ssh/id_ed25519"
-    "port=23"
-  ];
-};
+    device = "u290540-sub6@u290540.your-storagebox.de:";
+    fsType = "sshfs";
+    options = [
+      "nodev"
+      "noatime"
+      "allow_other"
+      "IdentityFile=/root/.ssh/id_ed25519"
+      "port=23"
+    ];
+  };
 
 }
